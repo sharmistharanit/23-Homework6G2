@@ -28,6 +28,16 @@ def f_tanh(x):
     return tanh(x)
 
 def df_tanh(x):
+"""
+    The derivative of the function tanh(x).
+
+    Parameters:
+    - x: float
+        The variable.
+
+    Returns:
+    float: The derivative value at x.
+    """
     return 1 - tanh(x)**2
 
 def bisection_method(f, a, b, tol=1e-10):
